@@ -1,0 +1,192 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Gretel Rajamoney   
+ * email: rajamong@oregonstate.edu
+ */
+
+.content {
+    display: flex;
+}
+
+.header-image-container {
+    float: left;
+}
+
+.site-title {
+    font-weight: 400;
+    font-size: 80px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 15px;
+    margin: 0px;
+    flex-grow: 1;
+}
+
+.site-title a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    font-family: "Roboto Slab";
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.filter-container {
+    float: left;
+    padding: 20px;
+    font-family: "Roboto";
+    background-color: rgb(219, 219, 219);
+    color: black;
+}
+
+.filter-input-element {
+    font-size: 20px;
+    display: inline-flex;
+}
+
+.filter-input-label {
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 18px;
+    font-weight: 250;
+}
+
+.filter-input-container {
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 18px;
+    font-weight: 250;
+}
+
+#filter-text {
+    margin-bottom: 10px;
+    margin-left: 7px;
+    width: 141px;
+}
+
+#filter-city {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 7px;
+    width: 153px;
+}
+
+#filter-min-price {
+    width: 65px;
+}
+
+#filter-max-price {
+    width: 65px;
+}
+
+.post {
+    display: inline-flex;
+    vertical-align: middle;
+    margin: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+    min-height: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid rgb(219, 219, 219);
+}
+
+.post-title {
+    color: orange;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+.post-price {
+    color: black;
+    background: rgb(219, 219, 219);
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(146, 146, 146);
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+}
+
+.post-city {
+    color: black;
+    font-size: 15px;
+}
+
+.post-image-container {
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.post-image-container img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.action-button {
+    color: white;
+    background-color: black;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 10px;
+    margin: 1px;
+    margin-top: 13px;
+    width: 200px;
+    height: 50px;
+}
+
+.action-button:hover {
+    background-color: #f0cbab;
+    font-family: Roboto Slab;
+    color: black;
+    border: 1px solid black;
+}
+
+#sell-something-button {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 100%;
+    border: orange;
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+    position: fixed;
+}
+
+#sell-something-button:hover {
+    right: 15px;
+    bottom: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    font-size: 35px;
+}
